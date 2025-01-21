@@ -1,9 +1,10 @@
+import { ThreeElements } from '@react-three/fiber'
+
 declare global {
+  namespace React {
     namespace JSX {
-      interface IntrinsicElements {
-        // Extending JSX with custom elements
-        mesh: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
-      }
+        interface IntrinsicElements extends ThreeElements {
+        }
     }
   }
-  
+}
