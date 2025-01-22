@@ -1,4 +1,4 @@
-import { FaArrowAltCircleDown, FaArrowAltCircleUp, FaCopyright, FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa";
 import Magicbutton from "./magicbutton";
 import { socialMedia } from "../data";
 
@@ -17,7 +17,7 @@ const Contact = () => {
                 <Magicbutton 
                     title="Let's get in touch"
                     icon={<FaLocationArrow/>}
-                    position="right"
+                    position=""
                 />
             </div>
             <div className="text-white-200 pb-4 flex justify-between">

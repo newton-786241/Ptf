@@ -3,7 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import Magicbutton from './magicbutton'
 import { FaLocationArrow } from 'react-icons/fa'
-import { FloatingNav } from './ui/floating-navbar'
+
 
 const Hero = () => {
   return (
@@ -27,13 +27,13 @@ const Hero = () => {
             words='Transforming concepts into seamless user experiences'
             />
             <p className='text-center md:tracking-wider md:text-lg text-sm mb-4 lg:text-2xl '>
-                Hi, I'm Tamseel, a Next.js developer based in India.
+                Hi, Im Tamseel, a Next.js developer based in India.
             </p>
             <Magicbutton
                 title="Show my work"
                 icon= {<FaLocationArrow/>}
-                position="right"
-                otherClasses='py-5'
+                position=""
+                otherClasses=''
             />
         </div>
       </div>

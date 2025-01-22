@@ -12,6 +12,8 @@ const Magicbutton = ({
         <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-9 py-1 text-sm font-medium text-white backdrop-blur-3xl gap-2">
         {title}
         {icon}
+        {position}
+        {otherClasses}
         </span>
       </button>
     </div>

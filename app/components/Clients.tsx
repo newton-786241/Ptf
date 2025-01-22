@@ -18,7 +18,7 @@ const Clients = () => {
             </div>
             <div className="flex flex-wrap gap-16 justify-evenly">
                 {companies.map((copmany)=>(
-                    <div className="flex gap-4 mt-6">
+                    <div key={copmany.name} className="flex gap-4 mt-6">
                     <img src={copmany.img} alt={copmany.name}/>
                     <img src={copmany.nameImg} alt={copmany.name} />
                     </div>

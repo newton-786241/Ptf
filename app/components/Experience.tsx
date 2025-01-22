@@ -1,7 +1,5 @@
-import { Cardo } from "next/font/google";
 import { workExperience } from "../data";
 import { Button } from "./ui/moving-border";
-import exp from "constants";
 
 const Experience = () => {
     return ( 

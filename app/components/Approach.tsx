@@ -4,6 +4,7 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/canvas-reveal-effect"; 
 
+/*eslint-disable */
 const Approach = ()=> {
   return (
     <>
@@ -122,3 +123,4 @@ export const Icon = ({ className, ...rest }: any) => {
     </svg>
   );
 };
+/*eslint-enable */

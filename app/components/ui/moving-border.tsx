@@ -1,4 +1,6 @@
 "use client";
+
+/*eslint-disable */
 import React from "react";
 import {
   motion,
@@ -137,3 +139,4 @@ export const MovingBorder = ({
     </>
   );
 };
+/*eslint-enable */

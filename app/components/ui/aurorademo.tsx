@@ -1,5 +1,4 @@
 import { AuroraBackground } from "./aurora-background";
-import { easeInOut, motion } from "framer-motion";
 
 const Demo = () => {
     return ( 

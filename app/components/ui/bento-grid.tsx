@@ -1,14 +1,11 @@
 "use client"
 
 import { cn } from "@/app/lib/utils";
-import GridGlobe from "./GridGlobe";
 import { AuroraBackground } from "./aurora-background";
-import { easeInOut } from 'framer-motion'
-import { motion } from "framer-motion";
+
 import Magicbutton from "../magicbutton";
 import { IoCopyOutline } from "react-icons/io5";
 import { useState } from "react";
-import animationData from '@/app/data/confetti.json'
 
 export const BentoGrid = ({
   className,
@@ -53,14 +50,7 @@ export const BentoGridItem = ({
 
   const [copied, setCopied] = useState(false);
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay:copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  }
+
 
   const handleCopy = () => {
     const text = "24tamseelanam11@gmail.com"
@@ -121,7 +111,7 @@ export const BentoGridItem = ({
               <div className="flex flex-col md:gap-3 lg:gap-8">
                 {['React.js', 'Next.js', 'Tyepscript',''].map(
                   (item)=>(
-                    <span className="lg:py-4 md:py-6 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    <span key={item} className="lg:py-4 md:py-6 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                       {item}
                     </span>
@@ -131,7 +121,7 @@ export const BentoGridItem = ({
               <div className="flex flex-col md:gap-3 lg:gap-8">
                 {['','VueJS', 'NuxtJS', 'GraphQL'].map(
                   (item)=>(
-                    <span className="lg:py-4 md:py-6 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    <span key={item} className="lg:py-4 md:py-6 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                       {item}
                     </span>
