@@ -19,8 +19,8 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         </div>
       </div>
-      <div className='flex justify-center my-20 z-2 relative'>
-        <div className='max-w-[89vw] flex flex-col justify-center items-center md:max-w-2xl lg:max-w-[60vw]'>
+      <div className='flex justify-center my-48 z-2 relative'>
+        <div className='max-w-[89vw] flex flex-col justify-center items-center md:max-w-2xl gap-10 lg:max-w-[60vw]'>
             <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic Web magic with Next.js</h2>
             <TextGenerateEffect
             className='text-center lg:text-6xl text-[40px] md:text-5xl mb-4 '
