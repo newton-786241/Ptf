@@ -81,7 +81,7 @@ export const navItems = [
     {
       id: 3,
       title: "HOOBANK - Landing page",
-      des: "Created a Landing page for Hoobank - The Next Generation Payment method with various colour gradients and hover effects.",
+      des: "Created a Fully Responsive Landing page for Hoobank - with various colour gradients and hover effects.",
       img: "/Screenshot.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://hoobank-one-bay.vercel.app/",
@@ -89,7 +89,7 @@ export const navItems = [
     {
       id: 2,
       title: "Alumination website IIT-B",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "Created an official website with various animations and backend for Alumination event for IIT-Bombay. A Premium Institute of India.",
       img: "/Screenshot_2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://alumination.sarc-iitb.org/",
