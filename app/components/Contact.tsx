@@ -10,15 +10,17 @@ const Contact = () => {
                 className="w-50 opacity-50" />
             </div>
             <div className="flex flex-col justify-center items-center gap-10">
-                <h1 className="text-white-200 heading">Ready to take 
+                <h1 className="text-white-200 heading mb-6 sm:mb-0">Ready to take 
                     <span className="text-purple"> Your </span>
                     digital <br /> presence to the next level?
                 </h1>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjq0kLecnk1Oy8VA5c_buAI1_iMwihjeWr4gIXQT-FiPwTDA/viewform" target="_blank" className="mb-20 sm:mb-0">
                 <Magicbutton 
                     title="Let's get in touch"
                     icon={<FaLocationArrow/>}
                     position=""
-                />
+                    otherClasses=""
+                /></a>
             </div>
             <div className="text-white-200 pb-4 flex justify-between">
                 <p>Copyright by Tamseel Anam</p>

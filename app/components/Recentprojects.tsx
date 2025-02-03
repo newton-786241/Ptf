@@ -4,6 +4,8 @@ import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
 
 const Recentprojects = () => {
+  const title1 = 'Check live site'
+  const title2 = 'Currently under progress'
   return (
     <div className='py-10' id="projects">
       <h1 className='heading'>
@@ -13,7 +15,7 @@ const Recentprojects = () => {
       <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 mt-10'>
         {projects.map(({id, title, des, img, link, iconLists,})=>(
             <div key={id} className='lg:min-h-[32.5rem] h-[42rem] lg:h=[32rem] sm:w-[570px] sm:h-[41rem] w-[80vw] flex items-center justify-center'>
-                <PinContainer title = {title} href={link} className='w-full'>
+                <PinContainer title = {title} href={ id !== 1? link : ''} className='w-full'>
                     <div className='relative flex items-center justify-center sm:w-[70vw] sm:h-[30vh] lg:w-[35vw] overflow-hidden h-[30vh] mb-10'>
                         <div className='relative w-full h-full overflow-hidden lg:rounded-3xl' style={{backgroundColor:'#13162D'}}>
                             <img src="/bg.png" alt="bg-img" />
@@ -39,7 +41,7 @@ const Recentprojects = () => {
                         ))}
                         </div>
                         <div className='flex justify-center items-center'>
-                        <a href="" className='text-purple hover:underline mx-2'>Check live site</a>
+                        <a href="" className='text-purple hover:underline mx-2'>{id !== 1 ? title1 : title2}</a>
                         <FaLocationArrow/>
                         </div>
                     </div>

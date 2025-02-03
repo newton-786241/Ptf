@@ -29,12 +29,13 @@ const Hero = () => {
             <p className='text-center md:tracking-wider md:text-lg text-sm mb-4 lg:text-2xl '>
                 Hi, Im Tamseel, a Next.js developer based in India.
             </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjq0kLecnk1Oy8VA5c_buAI1_iMwihjeWr4gIXQT-FiPwTDA/viewform" target='_blank'>
             <Magicbutton
-                title="Show my work"
+                title="Let's Work Together"
                 icon= {<FaLocationArrow/>}
                 position=""
                 otherClasses=''
-            />
+            /></a>
         </div>
       </div>
     </div>
