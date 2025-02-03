@@ -1,5 +1,4 @@
 import React from 'react'
-import { cn } from '../lib/utils';
 
 const Magicbutton = ({
     title, icon, position, handleClick, otherClasses
@@ -14,6 +13,7 @@ const Magicbutton = ({
         {title}
         {icon}
         {position}
+        {otherClasses}
         </span>
       </button>
     </div>
