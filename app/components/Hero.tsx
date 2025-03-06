@@ -21,17 +21,17 @@ const Hero = () => {
       </div>
       <div className='flex justify-center my-48 z-2 relative'>
         <div className='max-w-[89vw] flex flex-col justify-center items-center md:max-w-2xl gap-10 lg:max-w-[60vw]'>
-            <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic Web magic with Next.js</h2>
+            <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>crafting digital excellence with precision.</h2>
             <TextGenerateEffect
             className='text-center lg:text-6xl text-[40px] md:text-5xl mb-4 '
-            words='Transforming concepts into seamless user experiences'
+            words='Precision at Every Pixel. Performance at Every Click.'
             />
             <p className='text-center md:tracking-wider md:text-lg text-sm mb-4 lg:text-2xl '>
-                Hi, Im Tamseel, a Next.js developer based in India.
+                We craft fast, elegant websites for brands that value excellence.
             </p>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjq0kLecnk1Oy8VA5c_buAI1_iMwihjeWr4gIXQT-FiPwTDA/viewform" target='_blank'>
             <Magicbutton
-                title="Let's Work Together"
+                title="Create With Us"
                 icon= {<FaLocationArrow/>}
                 position=""
                 otherClasses=''

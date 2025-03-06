@@ -6,6 +6,7 @@ import Recentprojects from "./components/Recentprojects";
 import Clients from "./components/Clients";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Pricing from "./components/Pricing";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <Hero/>
       <Grid/>
       <Recentprojects/>
-      <Clients/>
+      <Pricing/>
+
       <Experience/>
       <Contact/>
     </main>

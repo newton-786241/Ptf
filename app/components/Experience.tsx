@@ -3,10 +3,10 @@ import { Button } from "./ui/moving-border";
 
 const Experience = () => {
     return ( 
-        <div className="py-10 px-5" id="testimonials">
+        <div className="py-10 px-5">
             <h1 className="heading sm:mx-10">
-                My
-                <span className="text-purple"> work experience</span>
+                Proven Expertise.
+                <span className="text-purple"> Real Results.</span>
             </h1>
             <div className="w-full mt-12 grid lg:grid-cols-4 gird-cols-1 gap-14">
                 {workExperience.map((experience)=>(

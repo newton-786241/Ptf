@@ -87,7 +87,7 @@ export const BentoGridItem = ({
             `${id!=6 && 'group-hover/bento:translate-x-2 transition duration-200'} relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:px-10 lg:py-7`
           )}
         >
-        <div className={`font-sans font-extralight md:max-w-45 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 ${id===2 && 'sm:hidden'}`}>
+        <div className={`font-sans font-extralight md:max-w-45 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10 ${id===2 && 'sm:hidden'} ${id===3 && 'hidden'} `}>
           {description}
         </div>
         <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 ${id===6 && 'flex justify-center items-center cursor-pointer group-hover/bento:-translate-y-4 transition duration-200 w-full'} ${id===1 && 'py-10 px-5'}`}>
@@ -127,7 +127,7 @@ export const BentoGridItem = ({
           {id===6 && (
             <div className="mt-5 relative">
               <Magicbutton
-              title={copied ? "Email is Copied!" : 'Copy my Email Address'}
+              title={copied ? "Email is Copied!" : 'Copy Email Address'}
               icon={<IoCopyOutline />}
               position=""
               handleClick={handleCopy}
@@ -135,8 +135,13 @@ export const BentoGridItem = ({
             </div>
           )}
           {id===2 && (
-            <div className="hidden sm:block sm:gap-2 leading-8 mt-6 text-lg  text-[#C1C2D3] font-sans font-extralight">
+            <div className="hidden sm:block sm:gap-2 leading-8 my-6 text-sm sm:text-lg text-[#C1C2D3] font-sans font-extralight">
               <p>Elegant Frontend design <br />Robust Backend Development<br />Responsive Websites <br /> Hosting Services <br /> All you need in one place. With a design of your choosing.</p>
+            </div>
+          )}
+          {id===3 && (
+            <div className="text-[#C1C2D3] font-sans font-extralight my-3">
+              Modern tools for speed, <br /> performance and scalability.
             </div>
           )}
       </div>

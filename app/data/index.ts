@@ -1,14 +1,14 @@
 export const navItems = [
     { name: "About", link: "#about", },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Pricing", link: "#Pricing" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Seamless Collaborations - We work closely with you to bring your vision to life.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm offering fullstack web development services.",
+      title: "Full-Service Web Devlopment - Form and Function",
       description: "Elegant Frontend, Robust Backend, Responsive Websites, Hosting. All you need in one place.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Our Tech Stack.",
+      description: "Modern tools for speed, performance and scalability.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,8 +38,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "Precision and Innovation.",
+      description: "Crafting high speed, elegant digital experiences with",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Elevating Web Aesthetics - Sleek animations and fuild UX.",
+      description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Ready to Elevate your Brand?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Fullstack Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Freelance Success Stories.",
+      desc: "We help entrepreneurs and businessses turn ideas into fully functional, high-quality digital experiences.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Enterprise level Development.",
+      desc: "We develop scalable, secure and sophisticated digital solutions for businesses that think big.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "eCommerce & Web Apps.",
+      desc: "From elegant online stores to dynamic web applications, we create scalable solutions that drive conversions.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Fullstack Developer",
-      desc: "Developed and maintained user and server-facing features using modern Web Dev technologies.",
+      title: "Custom Business Websites.",
+      desc: "We build sleek, high performance websites tailored to your brand's needs.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
