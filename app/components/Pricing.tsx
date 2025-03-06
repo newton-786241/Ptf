@@ -1,8 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa";
-import Magicbutton from "./magicbutton";
 import { GlareCard } from "./ui/glare-card";
-import Image from "next/image";
-import apple from '@/public/p4.svg'
 import { HiChevronDoubleRight } from "react-icons/hi";
 
 const Pricing = () => {
